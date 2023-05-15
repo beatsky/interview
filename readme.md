@@ -104,7 +104,8 @@ PS：面向海外电商，独角兽，听说也有工时系统。面试前猎头
 编程题：
 数组转成树
 深拷贝
-链表反转
+反转链表
+https://leetcode.cn/problems/UHnkqh/
 
 二面 4/03  57min
 项目问题
@@ -112,9 +113,9 @@ h5做过那些优化
 h5如何和客户端做的通信
 编程题：
 promise.allsettled
-实现一个迭代器，传入数组参数实例化后，调用next方法返回数组中的偶数、不传参数则一直返回偶数（2 3 6 8...
-设计一个搜索提示search组件（类似搜索引擎输入框
-微前端原理（qiankun，如何请求到这个页面的资源, html-import-plugin
+实现一个迭代器，传入数组参数实例化后，调用next方法返回数组中的偶数、不传数组参数调用next则一直返回偶数（2 3 6 8...
+设计一个搜索提示search组件（搜索引擎输入框
+qiankun微前端原理（如何请求到这个页面的资源, html-import-plugin
 线上的node服务不稳定，经常会挂，如何做兜底
 sso登录过程
 cookies有哪些属性， httpOnly是做什么的
@@ -151,7 +152,7 @@ vue3和vue2使用上的区别
 nextTick原理，什么情况下使用
 为什么vue3删除了filter方法（自己挖的坑
 elementUI使用体验，遇到的坑
-typescript 枚举类型 emnus
+介绍typescript 枚举类型 emnu
 
 二面 4/6 23min
 线上遇到白屏问题，如何解决
@@ -163,15 +164,15 @@ typescript 枚举类型 emnus
 最后给我说简历匹配度不够，没过🙄
 
 
-携程
+携程 （打车部门）
 一面 3/31 57min
 自我介绍
 （都是根据简历里问的）
 项目组件库的问题
 业务组件库、物料组件
-（扩展虚拟下拉列表，如果分组怎么处理）
-npm 版本 z.y.x 代表的含义，什么时候要更新x，y，z
-npm devDependence 和 preDependence、Dependence区别
+（扩展问题：虚拟下拉列表，如果数据需要分组怎么处理）
+npm包版本 z.y.x 代表的含义，什么时候要更新x，y，z
+npm devDependence 和 preDependence、dependence区别
 npm是否会装beta版本的包，npm包的^ ~ 和没有标识的区别
 组件库是如何做版本升级的，如何管理版本号的问题
 组件库提供给其他团队使用，更新、用户体验是如何收集的
@@ -182,83 +183,104 @@ sentry是如何收集报错的，如何自己实现一个性能埋点监控
 性能监控都做了哪些，有哪些场景，都是如何优化的（接口、页面写的差，由此引入到了react的问题
 react useMemo、useEffect是用来做什么的、react memo 
 react生命周期，class和hooks的一些区别
-react-native有用过嘛，说下大概的原理，如何与客户端交互（用了小程序的那一套答得，面试官说差不多是这样
+react-native有用过嘛，说下大概的原理，如何与客户端交互（用了小程序的那一套答的，面试官说差不多是这样
 react增量更新、和批量更新（没听仔细，我听到增量更新，给扯到webpack增量更新了
 webpack 热更新原理
 redux和mobx，区别。类比vuex
 接口缓存，协商缓存如何判断，有哪些请求头中的字段
 cache-control中的 no-cache和no-storage有什么区别（后面那个没听过
-babel编译原理，，是否写过插件
-升级babel preset ，对es6新语法的了解
+babel编译原理，是否写过插件
+为什么要升级babel preset ，对es6新语法的了解
 import和require的区别
 变量提升，变量提升要解决的问题，优缺点，优先级
 let、const和var的区别
-感兴趣的方面 （工程化、架构，跨端，node
 介绍了一下之前做的node项目
-tree-shaking原理 （接着对说工程化打包感兴趣的方向又问了这个
+个人感兴趣的方面 （工程化、架构，跨端，node
+tree-shaking原理 （接着上问题，对工程化感兴趣的扩展
 
-总结：面试官感觉年龄和我差不多，不过感觉对方知识量很足，尤其babel应该是很了解，都是跟着项目展开的，或者根据话题进行的，很多也是自己挖的坑
+总结：面试官感觉年龄和我差不多，不过感觉对方知识量很足，尤其babel应该是很了解，问题都是跟着项目展开的，或者根据话题进行的，很多也是自己挖的坑
 这的可以算是查缺补漏的一次面试
-反思：react知识真的有点垃，redux和mobx忘光了，还是要把简历上写的东西全部搞懂搞透才行
+反思：react知识需要补足，redux和mobx忘光了，还是要把简历上写的东西全部搞懂搞透才行
 
 
 极兔
-一面 30min
+一面 4/07 30min
 项目介绍
-签署合同项目，签名如何提取
+签署合同项目，手写签名如何提取
 webpack plugin loader区别
 babel转义原理
-git流程、特殊命令
+git流程、特殊命令。fast-forward是什么
 小程序优化
+你是如何面进得物的
+得物卖的谢是真的吗
 
-二面
+二面 4/11 20min
+自我介绍
+项目优化介绍，介绍下项目中的难点
+什么时候可以入职
+如何看待休息日有工作电话过来（对方希望能立刻解决
 
-三年
+HR面 4/11 30min
+做的成功的项目
+看见别人犯错会不会主动提示，如果对方不高兴怎么办
+离职原因
+期望薪资
+
+总结
+一面面得挺随便的，半个小时面试官直接问什么时候有空现场面，全程还在哼歌，挺惬意的emmmm，最后两个问题也很emmmm
+二面感觉就是防水过得样子。大概率还是在薪资上被pass了，所以也没啥好反思的
 
 申通快递
-一面 40min
-防抖和节流是什么 区别
-为什么有跨域、跨域的几种方式、实现
-flex布局 flex： 1 0 0 每个属性的区别 （不确定
+一面 4/07 40min
+防抖和节流是什么、区别
+为什么会有跨域、跨域的几种方式、实现
+flex布局 flex： 1 0 0 每个属性的区别
 async await底层原理
 浏览器事件循环、和node事件循环的差异
 强缓存、协商缓存
 react 如何调用父组件的方法
-fiber
-如何不用useState、useReduce更新组件
-如何实现react中的keep-alive （不会
+react fiber
+如何不用useState、useReduce更新组件 
+如何实现react中的keep-alive 
 webpack loder执行顺序
-tree-shaking原理
-SideEffects是什么（不会
+tree-shaking原理、SideEffects是什么
 babel-import如何实现按需引入
 为什么有tree-shaking 还要用babel-import删除多余组件
 做过那些webpack优化
 项目中做过的提效点和优化
-ts中的infer是什么（不会
+ts中的infer是什么
 types和interface的区别
 
+二面 4/18 40min
+手写题
+给一堆树状结构数据，实现一个菜单，并做菜单搜索 （递归解析树，直接用antd画菜单）
+介绍下项目中的难点
+期望薪资
 
+总结：
+一面对于申通来说，我觉得有点逆天了，反问环节我问面试官这些问题，他也答得磕磕巴巴
+二面技术面比较容易，面试官问完期望薪资之后，和我说三面面试官有事今天面不了了，让我回去了
+（之前hr都过来接人了），不过也是因为薪资的原因，没啥好在意的
 
 字节pico 
-一面 46min
+一面 4/13 46min
 微前端沙箱、css如何实现隔离
 shadow dom是什么 
-webpack做了哪些优化
+项目中webpack做了哪些优化
 webpack、vite差别，vite为何更快，生产环境打包做了哪些优化
-CDN原理，cdn是如何选取最近的节点的
+cdn原理，cdn是如何选取最近的节点的
 treeshaking原理
 commonjs和esmodule区别
 缓存原理、协商缓存、强缓存
 内部切换技术栈的原因、如果自己作为项目的技术选型者，如何在技术选型间做取舍
 taro为什么可以做语法转换、原理
 composition api生命周期和vue2的变化
-react 里面能否使用setTimeout更新state（这题答错了，很尴尬，太久没写脑子瓦特了
-    const A = () => {
-        const [count, setCount] = useState(0)
-        setInterval(() => setCount(preCount => preCount+1), 1000)
-        return <div>{count}</div>
-    }
-    
+react 里面能否使用setTimeout更新state
+const A = () => {
+    const [count, setCount] = useState(0)
+    setInterval(() => setCount(preCount => preCount+1), 1000)
+    return <div>{count}</div>
+}
 团队有没有封装过 useInterval、useTimeout用来做轮询
 hooks为什么只能在顶层调用，不能在判断语句里调用
 ts题：
@@ -286,5 +308,5 @@ function pick(obj: Record<string, unknown>, keys: string[]) {
 
 
 }
-总结：这场面试基本没准备，实在是面不动了，react的几个问题实际上不算难；vite、和webpack能看出面试官是希望能说的
+总结：这场面试基本没准备，实在是面不动了，react的几个问题实际上不算难；vite和webpack能看出面试官是希望能说的
 更深一点的；ts题基本是凉了，平时用的太少了
